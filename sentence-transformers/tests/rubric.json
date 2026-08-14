@@ -1,0 +1,105 @@
+{
+  "Q1": {
+    "max_marks": 5,
+    "criteria": [
+      {
+        "id": "q1_definition",
+        "description": "Inheritance is the OOP mechanism by which a derived class acquires properties and behaviours from a base class.",
+        "marks": 2,
+        "type": "semantic"
+      },
+      {
+        "id": "q1_types",
+        "description": "Correctly name and briefly explain any three types of inheritance.",
+        "marks": 3,
+        "type": "minimum_count",
+        "required_count": 3,
+        "options": [
+          "single inheritance",
+          "multiple inheritance",
+          "multilevel inheritance",
+          "hierarchical inheritance",
+          "hybrid inheritance"
+        ]
+      }
+    ]
+  },
+
+  "Q2": {
+    "max_marks": 5,
+    "criteria": [
+      {
+        "id": "q2_definition",
+        "description": "Object-oriented programming is a programming paradigm based on objects that bundle data and behaviour.",
+        "marks": 1,
+        "type": "semantic"
+      },
+      {
+        "id": "q2_encapsulation",
+        "description": "Encapsulation binds data and methods into a single unit and restricts direct access to some components.",
+        "marks": 1,
+        "type": "semantic"
+      },
+      {
+        "id": "q2_abstraction",
+        "description": "Abstraction hides implementation details and complexity while exposing only essential features.",
+        "marks": 1,
+        "type": "semantic"
+      },
+      {
+        "id": "q2_inheritance",
+        "description": "Inheritance allows a class to acquire properties and behaviours from another class and enables reuse.",
+        "marks": 1,
+        "type": "semantic"
+      },
+      {
+        "id": "q2_polymorphism",
+        "description": "Polymorphism allows a function, method, or operator to behave differently depending on the object or context.",
+        "marks": 1,
+        "type": "semantic"
+      }
+    ]
+  },
+
+  "Q3": {
+    "max_marks": 5,
+    "criteria": [
+      {
+        "id": "q3_definition",
+        "description": "Polymorphism means many forms and allows a function, method, or operator to behave differently depending on the object or arguments.",
+        "marks": 1,
+        "type": "semantic"
+      },
+      {
+        "id": "q3_compile_time",
+        "description": "Compile-time or static polymorphism is achieved through function or operator overloading and is resolved at compile time.",
+        "marks": 2,
+        "type": "semantic"
+      },
+      {
+        "id": "q3_runtime",
+        "description": "Run-time or dynamic polymorphism is achieved through method overriding and is resolved at run time.",
+        "marks": 2,
+        "type": "semantic"
+      }
+    ]
+  },
+
+  "Q4": {
+    "max_marks": 5,
+    "criteria": [
+      {
+        "id": "q4_class",
+        "description": "A class is a user-defined blueprint or template defining properties and behaviours common to its objects.",
+        "marks": 2.5,
+        "type": "semantic"
+      },
+      {
+        "id": "q4_object",
+        "description": "An object is a real-world instance of a class with its own actual property values.",
+        "marks": 2.5,
+        "type": "semantic"
+      }
+    ]
+  }
+}

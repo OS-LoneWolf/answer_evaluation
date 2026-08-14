@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Model/cache files
+.cache/
+cache/
+huggingface/
+*.onnx
+
+# Evaluation generated results
+*/results/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Large model files
+*.bin
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
