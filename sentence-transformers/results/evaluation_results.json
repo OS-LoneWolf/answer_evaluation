@@ -1,0 +1,144 @@
+{
+  "student": "student1",
+  "total_marks": 14.071980327367783,
+  "max_marks": 20.0,
+  "percentage": 70.35990163683891,
+  "questions": [
+    {
+      "question_id": "Q1",
+      "max_marks": 5,
+      "awarded_marks": 4.509028673171997,
+      "criteria": [
+        {
+          "criterion_id": "q1_definition",
+          "type": "semantic",
+          "similarity": 0.7545143365859985,
+          "max_marks": 2,
+          "awarded_marks": 1.509028673171997
+        },
+        {
+          "criterion_id": "q1_types",
+          "type": "minimum_count",
+          "max_marks": 3,
+          "awarded_marks": 3.0,
+          "matched_count": 5,
+          "required_count": 3,
+          "matched_options": [
+            {
+              "option": "single inheritance",
+              "similarity": 0.5514235496520996
+            },
+            {
+              "option": "multiple inheritance",
+              "similarity": 0.5564126372337341
+            },
+            {
+              "option": "multilevel inheritance",
+              "similarity": 0.5968290567398071
+            },
+            {
+              "option": "hierarchical inheritance",
+              "similarity": 0.5799315571784973
+            },
+            {
+              "option": "hybrid inheritance",
+              "similarity": 0.5436075925827026
+            }
+          ],
+          "awarded": 3.0
+        }
+      ]
+    },
+    {
+      "question_id": "Q2",
+      "max_marks": 5,
+      "awarded_marks": 1.9474321007728577,
+      "criteria": [
+        {
+          "criterion_id": "q2_definition",
+          "type": "semantic",
+          "similarity": 0.7841992974281311,
+          "max_marks": 1,
+          "awarded_marks": 0.7841992974281311
+        },
+        {
+          "criterion_id": "q2_encapsulation",
+          "type": "semantic",
+          "similarity": 0.44958484172821045,
+          "max_marks": 1,
+          "awarded_marks": 0.0
+        },
+        {
+          "criterion_id": "q2_abstraction",
+          "type": "semantic",
+          "similarity": 0.4531604051589966,
+          "max_marks": 1,
+          "awarded_marks": 0.0
+        },
+        {
+          "criterion_id": "q2_inheritance",
+          "type": "semantic",
+          "similarity": 0.5923440456390381,
+          "max_marks": 1,
+          "awarded_marks": 0.5923440456390381
+        },
+        {
+          "criterion_id": "q2_polymorphism",
+          "type": "semantic",
+          "similarity": 0.5708887577056885,
+          "max_marks": 1,
+          "awarded_marks": 0.5708887577056885
+        }
+      ]
+    },
+    {
+      "question_id": "Q3",
+      "max_marks": 5,
+      "awarded_marks": 3.9066415429115295,
+      "criteria": [
+        {
+          "criterion_id": "q3_definition",
+          "type": "semantic",
+          "similarity": 0.8044180274009705,
+          "max_marks": 1,
+          "awarded_marks": 0.8044180274009705
+        },
+        {
+          "criterion_id": "q3_compile_time",
+          "type": "semantic",
+          "similarity": 0.7598058581352234,
+          "max_marks": 2,
+          "awarded_marks": 1.5196117162704468
+        },
+        {
+          "criterion_id": "q3_runtime",
+          "type": "semantic",
+          "similarity": 0.7913058996200562,
+          "max_marks": 2,
+          "awarded_marks": 1.5826117992401123
+        }
+      ]
+    },
+    {
+      "question_id": "Q4",
+      "max_marks": 5,
+      "awarded_marks": 3.7088780105113983,
+      "criteria": [
+        {
+          "criterion_id": "q4_class",
+          "type": "semantic",
+          "similarity": 0.8064601421356201,
+          "max_marks": 2.5,
+          "awarded_marks": 2.0161503553390503
+        },
+        {
+          "criterion_id": "q4_object",
+          "type": "semantic",
+          "similarity": 0.6770910620689392,
+          "max_marks": 2.5,
+          "awarded_marks": 1.692727655172348
+        }
+      ]
+    }
+  ]
+}
