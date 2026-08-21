@@ -1,0 +1,310 @@
+[
+  {
+    "student": "student_1",
+    "question": "Q1",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_1",
+    "question": "Q2",
+    "criteria": {
+      "Correctness": 9,
+      "Completeness": 8,
+      "Relevance": 10,
+      "Clarity": 9
+    },
+    "weighted_score": 8.85
+  },
+  {
+    "student": "student_1",
+    "question": "Q3",
+    "criteria": {
+      "Correctness": 8,
+      "Completeness": 7,
+      "Relevance": 10,
+      "Clarity": 9
+    },
+    "weighted_score": 8.15
+  },
+  {
+    "student": "student_1",
+    "question": "Q4",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_2",
+    "question": "Q1",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_2",
+    "question": "Q2",
+    "criteria": {
+      "Correctness": 9,
+      "Completeness": 8,
+      "Relevance": 10,
+      "Clarity": 9
+    },
+    "weighted_score": 8.85
+  },
+  {
+    "student": "student_2",
+    "question": "Q3",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_2",
+    "question": "Q4",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_3",
+    "question": "Q1",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_3",
+    "question": "Q2",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_3",
+    "question": "Q3",
+    "criteria": {
+      "Correctness": 8,
+      "Completeness": 7,
+      "Relevance": 9,
+      "Clarity": 9
+    },
+    "weighted_score": 8.0
+  },
+  {
+    "student": "student_3",
+    "question": "Q4",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_4",
+    "question": "Q1",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_4",
+    "question": "Q2",
+    "criteria": {
+      "Correctness": 8,
+      "Completeness": 7,
+      "Relevance": 10,
+      "Clarity": 9
+    },
+    "weighted_score": 8.15
+  },
+  {
+    "student": "student_4",
+    "question": "Q3",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_4",
+    "question": "Q4",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_5",
+    "question": "Q1",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_5",
+    "question": "Q2",
+    "criteria": {
+      "Correctness": 8,
+      "Completeness": 7,
+      "Relevance": 10,
+      "Clarity": 9
+    },
+    "weighted_score": 8.15
+  },
+  {
+    "student": "student_5",
+    "question": "Q3",
+    "criteria": {
+      "Correctness": 9,
+      "Completeness": 9,
+      "Relevance": 10,
+      "Clarity": 9
+    },
+    "weighted_score": 9.15
+  },
+  {
+    "student": "student_5",
+    "question": "Q4",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_6",
+    "question": "Q1",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_6",
+    "question": "Q2",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_6",
+    "question": "Q3",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_6",
+    "question": "Q4",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_7",
+    "question": "Q1",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_7",
+    "question": "Q2",
+    "criteria": {
+      "Correctness": 9,
+      "Completeness": 9,
+      "Relevance": 10,
+      "Clarity": 10
+    },
+    "weighted_score": 9.3
+  },
+  {
+    "student": "student_7",
+    "question": "Q3",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  },
+  {
+    "student": "student_7",
+    "question": "Q4",
+    "criteria": {
+      "Correctness": 0,
+      "Completeness": 0,
+      "Relevance": 0,
+      "Clarity": 0
+    },
+    "weighted_score": 0.0
+  }
+]

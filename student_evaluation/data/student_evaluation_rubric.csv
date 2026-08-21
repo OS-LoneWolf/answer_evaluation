@@ -1,0 +1,5 @@
+criterion,weight,description
+Correctness,0.4,Technically correct statements; no substantive misconceptions.
+Completeness,0.3,Covers the important concepts/examples requested by the question and model answer.
+Relevance,0.15,Addresses the asked question without substantial irrelevant content.
+Clarity,0.15,"Understandable, logically organized, and sufficiently precise."

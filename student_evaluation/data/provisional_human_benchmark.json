@@ -1,0 +1,77 @@
+{
+  "purpose": "Provisional expert benchmark for developing an Automated Student Answer Evaluation system.",
+  "important_note": "These are model-generated provisional labels, NOT actual human/teacher ground truth. Replace or validate them with independent human judgments before using them for a final research claim.",
+  "score_scale": "0-10 per question; overall is the mean of Q1-Q4.",
+  "rubric": [
+    {
+      "criterion": "Correctness",
+      "weight": 0.4,
+      "description": "Technically correct statements; no substantive misconceptions."
+    },
+    {
+      "criterion": "Completeness",
+      "weight": 0.3,
+      "description": "Covers the important concepts/examples requested by the question and model answer."
+    },
+    {
+      "criterion": "Relevance",
+      "weight": 0.15,
+      "description": "Addresses the asked question without substantial irrelevant content."
+    },
+    {
+      "criterion": "Clarity",
+      "weight": 0.15,
+      "description": "Understandable, logically organized, and sufficiently precise."
+    }
+  ],
+  "question_scope": {
+    "Q1": "Explain data structures and their types.",
+    "Q2": "Explain an algorithm and characteristics of a good algorithm.",
+    "Q3": "Explain complexity analysis and its types.",
+    "Q4": "Explain Array and Linked List."
+  },
+  "scores": {
+    "student_1": {
+      "Q1": 8.5,
+      "Q2": 8.0,
+      "Q3": 8.5,
+      "Q4": 9.5
+    },
+    "student_2": {
+      "Q1": 8.5,
+      "Q2": 8.5,
+      "Q3": 9.0,
+      "Q4": 9.0
+    },
+    "student_3": {
+      "Q1": 7.5,
+      "Q2": 9.0,
+      "Q3": 7.5,
+      "Q4": 8.0
+    },
+    "student_4": {
+      "Q1": 7.5,
+      "Q2": 8.0,
+      "Q3": 8.0,
+      "Q4": 8.5
+    },
+    "student_5": {
+      "Q1": 7.5,
+      "Q2": 8.0,
+      "Q3": 8.0,
+      "Q4": 9.0
+    },
+    "student_6": {
+      "Q1": 0.0,
+      "Q2": 0.0,
+      "Q3": 0.0,
+      "Q4": 0.0
+    },
+    "student_7": {
+      "Q1": 9.5,
+      "Q2": 9.0,
+      "Q3": 9.0,
+      "Q4": 9.5
+    }
+  }
+}

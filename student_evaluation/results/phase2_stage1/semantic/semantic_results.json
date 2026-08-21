@@ -1,0 +1,311 @@
+{
+  "experiment": "phase2_stage1_semantic_baseline",
+  "method": {
+    "name": "Sentence Transformers semantic similarity",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "score_mapping": "cosine_similarity * 10",
+    "normalized_embeddings": true
+  },
+  "dataset": {
+    "students": 7,
+    "records_evaluated": 28
+  },
+  "metrics": {
+    "n": 28,
+    "mae": 1.1059196442365646,
+    "rmse": 1.4427938829177505,
+    "pearson_r": 0.9452138016373665,
+    "spearman_rho": 0.2377279318711149
+  },
+  "student_summary": {
+    "student_1": {
+      "human_mean_score_0_10": 8.625,
+      "semantic_mean_score_0_10": 8.937230110168457,
+      "absolute_error": 0.31223011016845703
+    },
+    "student_2": {
+      "human_mean_score_0_10": 8.75,
+      "semantic_mean_score_0_10": 9.001293629407883,
+      "absolute_error": 0.2512936294078827
+    },
+    "student_3": {
+      "human_mean_score_0_10": 8.0,
+      "semantic_mean_score_0_10": 9.309644252061844,
+      "absolute_error": 1.3096442520618439
+    },
+    "student_4": {
+      "human_mean_score_0_10": 8.0,
+      "semantic_mean_score_0_10": 8.867284506559372,
+      "absolute_error": 0.867284506559372
+    },
+    "student_5": {
+      "human_mean_score_0_10": 8.125,
+      "semantic_mean_score_0_10": 8.92048105597496,
+      "absolute_error": 0.7954810559749603
+    },
+    "student_6": {
+      "human_mean_score_0_10": 0.0,
+      "semantic_mean_score_0_10": 2.8296252340078354,
+      "absolute_error": 2.8296252340078354
+    },
+    "student_7": {
+      "human_mean_score_0_10": 9.25,
+      "semantic_mean_score_0_10": 8.801585286855698,
+      "absolute_error": 0.44841471314430237
+    }
+  },
+  "question_results": [
+    {
+      "student": "student_1",
+      "question": "Q1",
+      "human_score_0_10": 8.5,
+      "semantic_similarity": 0.8292407393455505,
+      "predicted_score_0_10": 8.292407393455505,
+      "absolute_error": 0.20759260654449463,
+      "signed_error": -0.20759260654449463
+    },
+    {
+      "student": "student_1",
+      "question": "Q2",
+      "human_score_0_10": 8.0,
+      "semantic_similarity": 0.8773356676101685,
+      "predicted_score_0_10": 8.773356676101685,
+      "absolute_error": 0.7733566761016846,
+      "signed_error": 0.7733566761016846
+    },
+    {
+      "student": "student_1",
+      "question": "Q3",
+      "human_score_0_10": 8.5,
+      "semantic_similarity": 0.9589295983314514,
+      "predicted_score_0_10": 9.589295983314514,
+      "absolute_error": 1.0892959833145142,
+      "signed_error": 1.0892959833145142
+    },
+    {
+      "student": "student_1",
+      "question": "Q4",
+      "human_score_0_10": 9.5,
+      "semantic_similarity": 0.9093860387802124,
+      "predicted_score_0_10": 9.093860387802124,
+      "absolute_error": 0.406139612197876,
+      "signed_error": -0.406139612197876
+    },
+    {
+      "student": "student_2",
+      "question": "Q1",
+      "human_score_0_10": 8.5,
+      "semantic_similarity": 0.87020343542099,
+      "predicted_score_0_10": 8.7020343542099,
+      "absolute_error": 0.2020343542098999,
+      "signed_error": 0.2020343542098999
+    },
+    {
+      "student": "student_2",
+      "question": "Q2",
+      "human_score_0_10": 8.5,
+      "semantic_similarity": 0.8606711626052856,
+      "predicted_score_0_10": 8.606711626052856,
+      "absolute_error": 0.10671162605285645,
+      "signed_error": 0.10671162605285645
+    },
+    {
+      "student": "student_2",
+      "question": "Q3",
+      "human_score_0_10": 9.0,
+      "semantic_similarity": 0.9219636917114258,
+      "predicted_score_0_10": 9.219636917114258,
+      "absolute_error": 0.2196369171142578,
+      "signed_error": 0.2196369171142578
+    },
+    {
+      "student": "student_2",
+      "question": "Q4",
+      "human_score_0_10": 9.0,
+      "semantic_similarity": 0.9476791620254517,
+      "predicted_score_0_10": 9.476791620254517,
+      "absolute_error": 0.4767916202545166,
+      "signed_error": 0.4767916202545166
+    },
+    {
+      "student": "student_3",
+      "question": "Q1",
+      "human_score_0_10": 7.5,
+      "semantic_similarity": 0.8924500942230225,
+      "predicted_score_0_10": 8.924500942230225,
+      "absolute_error": 1.4245009422302246,
+      "signed_error": 1.4245009422302246
+    },
+    {
+      "student": "student_3",
+      "question": "Q2",
+      "human_score_0_10": 9.0,
+      "semantic_similarity": 0.9462260007858276,
+      "predicted_score_0_10": 9.462260007858276,
+      "absolute_error": 0.46226000785827637,
+      "signed_error": 0.46226000785827637
+    },
+    {
+      "student": "student_3",
+      "question": "Q3",
+      "human_score_0_10": 7.5,
+      "semantic_similarity": 0.9649986028671265,
+      "predicted_score_0_10": 9.649986028671265,
+      "absolute_error": 2.1499860286712646,
+      "signed_error": 2.1499860286712646
+    },
+    {
+      "student": "student_3",
+      "question": "Q4",
+      "human_score_0_10": 8.0,
+      "semantic_similarity": 0.920183002948761,
+      "predicted_score_0_10": 9.20183002948761,
+      "absolute_error": 1.2018300294876099,
+      "signed_error": 1.2018300294876099
+    },
+    {
+      "student": "student_4",
+      "question": "Q1",
+      "human_score_0_10": 7.5,
+      "semantic_similarity": 0.9451610445976257,
+      "predicted_score_0_10": 9.451610445976257,
+      "absolute_error": 1.9516104459762573,
+      "signed_error": 1.9516104459762573
+    },
+    {
+      "student": "student_4",
+      "question": "Q2",
+      "human_score_0_10": 8.0,
+      "semantic_similarity": 0.7098097801208496,
+      "predicted_score_0_10": 7.098097801208496,
+      "absolute_error": 0.9019021987915039,
+      "signed_error": -0.9019021987915039
+    },
+    {
+      "student": "student_4",
+      "question": "Q3",
+      "human_score_0_10": 8.0,
+      "semantic_similarity": 0.9589548110961914,
+      "predicted_score_0_10": 9.589548110961914,
+      "absolute_error": 1.589548110961914,
+      "signed_error": 1.589548110961914
+    },
+    {
+      "student": "student_4",
+      "question": "Q4",
+      "human_score_0_10": 8.5,
+      "semantic_similarity": 0.932988166809082,
+      "predicted_score_0_10": 9.32988166809082,
+      "absolute_error": 0.8298816680908203,
+      "signed_error": 0.8298816680908203
+    },
+    {
+      "student": "student_5",
+      "question": "Q1",
+      "human_score_0_10": 7.5,
+      "semantic_similarity": 0.9542794227600098,
+      "predicted_score_0_10": 9.542794227600098,
+      "absolute_error": 2.0427942276000977,
+      "signed_error": 2.0427942276000977
+    },
+    {
+      "student": "student_5",
+      "question": "Q2",
+      "human_score_0_10": 8.0,
+      "semantic_similarity": 0.7793976068496704,
+      "predicted_score_0_10": 7.793976068496704,
+      "absolute_error": 0.2060239315032959,
+      "signed_error": -0.2060239315032959
+    },
+    {
+      "student": "student_5",
+      "question": "Q3",
+      "human_score_0_10": 8.0,
+      "semantic_similarity": 0.9478423595428467,
+      "predicted_score_0_10": 9.478423595428467,
+      "absolute_error": 1.4784235954284668,
+      "signed_error": 1.4784235954284668
+    },
+    {
+      "student": "student_5",
+      "question": "Q4",
+      "human_score_0_10": 9.0,
+      "semantic_similarity": 0.8866730332374573,
+      "predicted_score_0_10": 8.866730332374573,
+      "absolute_error": 0.13326966762542725,
+      "signed_error": -0.13326966762542725
+    },
+    {
+      "student": "student_6",
+      "question": "Q1",
+      "human_score_0_10": 0.0,
+      "semantic_similarity": 0.27911674976348877,
+      "predicted_score_0_10": 2.7911674976348877,
+      "absolute_error": 2.7911674976348877,
+      "signed_error": 2.7911674976348877
+    },
+    {
+      "student": "student_6",
+      "question": "Q2",
+      "human_score_0_10": 0.0,
+      "semantic_similarity": 0.28207480907440186,
+      "predicted_score_0_10": 2.8207480907440186,
+      "absolute_error": 2.8207480907440186,
+      "signed_error": 2.8207480907440186
+    },
+    {
+      "student": "student_6",
+      "question": "Q3",
+      "human_score_0_10": 0.0,
+      "semantic_similarity": 0.23592552542686462,
+      "predicted_score_0_10": 2.3592552542686462,
+      "absolute_error": 2.3592552542686462,
+      "signed_error": 2.3592552542686462
+    },
+    {
+      "student": "student_6",
+      "question": "Q4",
+      "human_score_0_10": 0.0,
+      "semantic_similarity": 0.3347330093383789,
+      "predicted_score_0_10": 3.347330093383789,
+      "absolute_error": 3.347330093383789,
+      "signed_error": 3.347330093383789
+    },
+    {
+      "student": "student_7",
+      "question": "Q1",
+      "human_score_0_10": 9.5,
+      "semantic_similarity": 0.907454252243042,
+      "predicted_score_0_10": 9.07454252243042,
+      "absolute_error": 0.4254574775695801,
+      "signed_error": -0.4254574775695801
+    },
+    {
+      "student": "student_7",
+      "question": "Q2",
+      "human_score_0_10": 9.0,
+      "semantic_similarity": 0.8467741012573242,
+      "predicted_score_0_10": 8.467741012573242,
+      "absolute_error": 0.5322589874267578,
+      "signed_error": -0.5322589874267578
+    },
+    {
+      "student": "student_7",
+      "question": "Q3",
+      "human_score_0_10": 9.0,
+      "semantic_similarity": 0.8766346573829651,
+      "predicted_score_0_10": 8.76634657382965,
+      "absolute_error": 0.23365342617034912,
+      "signed_error": -0.23365342617034912
+    },
+    {
+      "student": "student_7",
+      "question": "Q4",
+      "human_score_0_10": 9.5,
+      "semantic_similarity": 0.8897711038589478,
+      "predicted_score_0_10": 8.897711038589478,
+      "absolute_error": 0.6022889614105225,
+      "signed_error": -0.6022889614105225
+    }
+  ]
+}

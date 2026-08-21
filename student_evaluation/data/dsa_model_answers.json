@@ -1,0 +1,21 @@
+{
+    "Q1": {
+        "question": "Explain data structures and their types.",
+        "model_answer": "A data structure is a specialized way of organizing, storing and managing data in computer memory so that it can be accessed, processed and updated efficiently. Data structures are broadly classified into linear and non-linear data structures. Linear data structures arrange elements sequentially, where each element is connected to adjacent elements. Examples include Array, Linked List, Stack and Queue. Non-linear data structures do not arrange elements sequentially and may form hierarchical or network relationships. Examples include Tree and Graph."
+    },
+
+    "Q2": {
+        "question": "Explain an algorithm and the characteristics of a good algorithm.",
+        "model_answer": "An algorithm is a finite set of well-defined, step-by-step instructions designed to solve a problem or perform a computation. A good algorithm should have well-defined inputs, well-defined outputs, definiteness, finiteness, effectiveness, correctness, deterministic behaviour and language independence."
+    },
+
+    "Q3": {
+        "question": "Explain complexity analysis and its types.",
+        "model_answer": "Complexity analysis is a technique used to evaluate the efficiency of an algorithm with respect to the input size. It determines how the time and memory requirements of an algorithm grow as the input size increases. The two main types are Time Complexity and Space Complexity. Time complexity measures the amount of time or number of operations required by an algorithm. Space complexity measures the amount of memory required by an algorithm during execution. Complexity can also be considered in best, average and worst cases."
+    },
+
+    "Q4": {
+        "question": "Explain Array and Linked List.",
+        "model_answer": "An Array is a linear data structure that stores elements of the same data type in contiguous memory locations. Elements can be accessed directly using their index, providing fast access. An Array generally has a fixed size after creation. A Linked List is a linear data structure consisting of nodes, where each node contains data and a reference or pointer to the next node. Unlike arrays, linked-list nodes are stored in non-contiguous memory locations. A linked list can grow or shrink dynamically and supports efficient insertion and deletion."
+    }
+}

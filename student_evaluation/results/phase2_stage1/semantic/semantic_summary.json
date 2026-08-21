@@ -1,0 +1,47 @@
+{
+  "experiment": "phase2_stage1_semantic_baseline",
+  "metrics": {
+    "n": 28,
+    "mae": 1.1059196442365646,
+    "rmse": 1.4427938829177505,
+    "pearson_r": 0.9452138016373665,
+    "spearman_rho": 0.2377279318711149
+  },
+  "student_summary": {
+    "student_1": {
+      "human_mean_score_0_10": 8.625,
+      "semantic_mean_score_0_10": 8.937230110168457,
+      "absolute_error": 0.31223011016845703
+    },
+    "student_2": {
+      "human_mean_score_0_10": 8.75,
+      "semantic_mean_score_0_10": 9.001293629407883,
+      "absolute_error": 0.2512936294078827
+    },
+    "student_3": {
+      "human_mean_score_0_10": 8.0,
+      "semantic_mean_score_0_10": 9.309644252061844,
+      "absolute_error": 1.3096442520618439
+    },
+    "student_4": {
+      "human_mean_score_0_10": 8.0,
+      "semantic_mean_score_0_10": 8.867284506559372,
+      "absolute_error": 0.867284506559372
+    },
+    "student_5": {
+      "human_mean_score_0_10": 8.125,
+      "semantic_mean_score_0_10": 8.92048105597496,
+      "absolute_error": 0.7954810559749603
+    },
+    "student_6": {
+      "human_mean_score_0_10": 0.0,
+      "semantic_mean_score_0_10": 2.8296252340078354,
+      "absolute_error": 2.8296252340078354
+    },
+    "student_7": {
+      "human_mean_score_0_10": 9.25,
+      "semantic_mean_score_0_10": 8.801585286855698,
+      "absolute_error": 0.44841471314430237
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "experiment": "phase2_stage1_tfidf_baseline",
+  "metrics": {
+    "n": 28,
+    "mae": 4.49608128201577,
+    "rmse": 4.901036561996676,
+    "pearson_r": 0.7874886372159552,
+    "spearman_rho": 0.4198469907899222
+  },
+  "student_summary": {
+    "student_1": {
+      "human_mean_score_0_10": 8.625,
+      "tfidf_mean_score_0_10": 3.636192415438969,
+      "absolute_error": 4.988807584561031
+    },
+    "student_2": {
+      "human_mean_score_0_10": 8.75,
+      "tfidf_mean_score_0_10": 2.349052812475848,
+      "absolute_error": 6.400947187524152
+    },
+    "student_3": {
+      "human_mean_score_0_10": 8.0,
+      "tfidf_mean_score_0_10": 3.3945006468979044,
+      "absolute_error": 4.605499353102095
+    },
+    "student_4": {
+      "human_mean_score_0_10": 8.0,
+      "tfidf_mean_score_0_10": 3.414255721251362,
+      "absolute_error": 4.585744278748638
+    },
+    "student_5": {
+      "human_mean_score_0_10": 8.125,
+      "tfidf_mean_score_0_10": 3.205882000118606,
+      "absolute_error": 4.919117999881394
+    },
+    "student_6": {
+      "human_mean_score_0_10": 0.0,
+      "tfidf_mean_score_0_10": 0.28905345540409566,
+      "absolute_error": 0.28905345540409566
+    },
+    "student_7": {
+      "human_mean_score_0_10": 9.25,
+      "tfidf_mean_score_0_10": 3.566600885111016,
+      "absolute_error": 5.683399114888984
+    }
+  }
+}
